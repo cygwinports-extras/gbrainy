@@ -1,0 +1,6 @@
+category: Games Gnome
+requires: glade-sharp2 gnome-sharp2 gtk-sharp2 mono
+sdesc: "GNOME brain teasers"
+ldesc: "gbrainy is a brain teaser game and trainer to have fun and to 
+keep your brain trained. It is written for GNOME using Mono, C# and 
+Cairo."
