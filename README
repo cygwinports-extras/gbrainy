@@ -7,7 +7,7 @@ Runtime requirements:
   glade-sharp2-2.10.1-1
   gnome-sharp2-2.16.0-1
   gtk-sharp2-2.10.1-1
-  mono-1.2.4-1
+  mono-1.2.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -32,36 +32,46 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gbrainy-0.1-X-src.tar.bz2
+  unpack gbrainy-0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gbrainy-0.1-X.cygport all
+  cygport ./gbrainy-0.2-X.cygport all
 
 This will create:
-  /usr/src/gbrainy-0.1-X-src.tar.bz2
-  /usr/src/gbrainy-0.1-X.tar.bz2
+  /usr/src/gbrainy-0.2-X-src.tar.bz2
+  /usr/src/gbrainy-0.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
+  /etc/postinstall/gbrainy.sh
   /usr/bin/gbrainy
   /usr/lib/gbrainy/gbrainy.exe
   /usr/share/applications/gbrainy.desktop
-  /usr/share/doc/Cygwin/gbrainy-0.1.README
-  /usr/share/doc/gbrainy-0.1/AUTHORS
-  /usr/share/doc/gbrainy-0.1/COPYING
-  /usr/share/doc/gbrainy-0.1/ChangeLog
-  /usr/share/doc/gbrainy-0.1/INSTALL
-  /usr/share/doc/gbrainy-0.1/MAINTAINERS
-  /usr/share/doc/gbrainy-0.1/NEWS
-  /usr/share/doc/gbrainy-0.1/README
+  /usr/share/doc/Cygwin/gbrainy-0.2.README
+  /usr/share/doc/gbrainy-0.2/AUTHORS
+  /usr/share/doc/gbrainy-0.2/COPYING
+  /usr/share/doc/gbrainy-0.2/ChangeLog
+  /usr/share/doc/gbrainy-0.2/INSTALL
+  /usr/share/doc/gbrainy-0.2/MAINTAINERS
+  /usr/share/doc/gbrainy-0.2/NEWS
+  /usr/share/doc/gbrainy-0.2/README
+  /usr/share/icons/hicolor/16x16/apps/gbrainy.png
+  /usr/share/icons/hicolor/32x32/apps/gbrainy.png
+  /usr/share/icons/hicolor/scalable/apps/gbrainy.svg
   /usr/share/locale/ca/LC_MESSAGES/gbrainy.mo
+  /usr/share/pixmaps/gbrainy.png
+  /usr/share/pixmaps/gbrainy.svg
+  /usr/share/pixmaps/gbrainy16.png
 
 ------------------
 
 Port Notes:
+
+----- version 0.2-1 -----
+Version bump.
 
 ----- version 0.1-1 -----
 Initial release for Cygwin.
