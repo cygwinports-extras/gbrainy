@@ -13,7 +13,7 @@ Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
   cygport-0.3.5-1
   gawk-3.1.5-4
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gbrainy-0.2-X-src.tar.bz2
+  unpack gbrainy-0.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gbrainy-0.2-X.cygport all
+  cygport ./gbrainy-0.3-X.cygport all
 
 This will create:
-  /usr/src/gbrainy-0.2-X-src.tar.bz2
-  /usr/src/gbrainy-0.2-X.tar.bz2
+  /usr/src/gbrainy-0.3-X-src.tar.bz2
+  /usr/src/gbrainy-0.3-X.tar.bz2
 
 -------------------------------------------
 
@@ -50,18 +50,24 @@ Files included in the binary package:
   /usr/bin/gbrainy
   /usr/lib/gbrainy/gbrainy.exe
   /usr/share/applications/gbrainy.desktop
-  /usr/share/doc/Cygwin/gbrainy-0.2.README
-  /usr/share/doc/gbrainy-0.2/AUTHORS
-  /usr/share/doc/gbrainy-0.2/COPYING
-  /usr/share/doc/gbrainy-0.2/ChangeLog
-  /usr/share/doc/gbrainy-0.2/INSTALL
-  /usr/share/doc/gbrainy-0.2/MAINTAINERS
-  /usr/share/doc/gbrainy-0.2/NEWS
-  /usr/share/doc/gbrainy-0.2/README
+  /usr/share/doc/Cygwin/gbrainy-0.3.README
+  /usr/share/doc/gbrainy-0.3/AUTHORS
+  /usr/share/doc/gbrainy-0.3/COPYING
+  /usr/share/doc/gbrainy-0.3/ChangeLog
+  /usr/share/doc/gbrainy-0.3/INSTALL
+  /usr/share/doc/gbrainy-0.3/MAINTAINERS
+  /usr/share/doc/gbrainy-0.3/NEWS
+  /usr/share/doc/gbrainy-0.3/README
   /usr/share/icons/hicolor/16x16/apps/gbrainy.png
   /usr/share/icons/hicolor/32x32/apps/gbrainy.png
   /usr/share/icons/hicolor/scalable/apps/gbrainy.svg
   /usr/share/locale/ca/LC_MESSAGES/gbrainy.mo
+  /usr/share/locale/es/LC_MESSAGES/gbrainy.mo
+  /usr/share/locale/fr/LC_MESSAGES/gbrainy.mo
+  /usr/share/locale/gl/LC_MESSAGES/gbrainy.mo
+  /usr/share/locale/it/LC_MESSAGES/gbrainy.mo
+  /usr/share/locale/sv/LC_MESSAGES/gbrainy.mo
+  /usr/share/man/man1/gbrainy.1.gz
   /usr/share/pixmaps/gbrainy.png
   /usr/share/pixmaps/gbrainy.svg
   /usr/share/pixmaps/gbrainy16.png
@@ -69,6 +75,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.3-1 -----
+Version bump.
 
 ----- version 0.2-1 -----
 Version bump.
