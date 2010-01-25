@@ -1,0 +1,9 @@
+--- origsrc/gbrainy-1.30/src/Core/gbrainy.Core.dll.config.in	2009-12-24 04:46:59.000000000 -0600
++++ src/gbrainy-1.30/src/Core/gbrainy.Core.dll.config.in	2010-01-24 22:02:38.445390200 -0600
+@@ -1,5 +1,5 @@
+ <configuration>
+ 	<dllmap dll="rsvg-2" target="librsvg-2.so.2"/>
+-	<dllmap dll="libgtk-win32-2.0-0.dll" target="libgtk-x11-2.0.so.0"/>
++	<dllmap dll="rsvg-2" target="cygrsvg-2-2.dll" os="cygwin"/>
+ </configuration>
+ 
