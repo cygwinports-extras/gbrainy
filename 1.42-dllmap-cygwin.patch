@@ -1,0 +1,18 @@
+--- origsrc/gbrainy-1.42/src/Clients/Classical/gbrainy.exe.config.in	2010-04-13 09:00:33.000000000 -0500
++++ src/gbrainy-1.42/src/Clients/Classical/gbrainy.exe.config.in	2010-05-26 00:12:58.014678600 -0500
+@@ -1,4 +1,5 @@
+ <configuration>
+ 	<dllmap dll="libgtk-win32-2.0-0.dll" target="libgtk-x11-2.0.so.0"/>
++	<dllmap dll="libgtk-win32-2.0-0.dll" target="cyggtk-x11-2.0-0.dll" os="cygwin"/>
+ </configuration>
+ 
+--- origsrc/gbrainy-1.42/src/Core/gbrainy.Core.dll.config.in	2010-05-25 23:56:15.993366200 -0500
++++ src/gbrainy-1.42/src/Core/gbrainy.Core.dll.config.in	2010-05-26 00:13:33.135687400 -0500
+@@ -1,5 +1,7 @@
+ <configuration>
+ 	<dllmap dll="rsvg-2" target="librsvg-2.so.2"/>
++	<dllmap dll="rsvg-2" target="cygrsvg-2-2.dll" os="cygwin"/>
+ 	<dllmap dll="libgtk-win32-2.0-0.dll" target="libgtk-x11-2.0.so.0"/>
++	<dllmap dll="libgtk-win32-2.0-0.dll" target="cyggtk-x11-2.0-0.dll" os="cygwin"/>
+ </configuration>
+ 
