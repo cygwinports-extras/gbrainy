@@ -3,6 +3,10 @@ inherit mono gnome2
 DESCRIPTION="GNOME brain teasers"
 HOMEPAGE="http://live.gnome.org/gbrainy"
 SRC_URI="http://gent.softcatala.org/jmas/gbrainy/${P}.tar.gz"
-PATCH_URI="1.42-dllmap-cygwin.patch"
+
+PATCH_URI="
+	1.42-dllmap-cygwin.patch
+	1.61-mono210.patch
+"
 
 DIFF_EXCLUDES="Defines.cs"
