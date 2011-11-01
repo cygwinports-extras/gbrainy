@@ -6,7 +6,6 @@ SRC_URI="http://gent.softcatala.org/jmas/gbrainy/${P}.tar.gz"
 
 PATCH_URI="
 	1.42-dllmap-cygwin.patch
-	1.61-mono210.patch
 "
 
 DIFF_EXCLUDES="Defines.cs"
