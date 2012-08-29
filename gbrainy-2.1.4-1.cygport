@@ -1,6 +1,9 @@
 inherit mono gnome2
 
-DESCRIPTION="GNOME brain teasers"
+CATEGORY="Games"
+SUMMARY="GNOME brain teasers"
+DESCRIPTION="gbrainy is a brain teaser game and trainer to have fun and to
+keep your brain trained."
 HOMEPAGE="http://live.gnome.org/gbrainy"
 SRC_URI="http://gent.softcatala.org/jmas/gbrainy/${P}.tar.gz"
 

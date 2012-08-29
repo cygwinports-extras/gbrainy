@@ -1,6 +1,0 @@
-category: Games Gnome
-requires: gdk-pixbuf2.0-svg libgtk2.0_0 librsvg2_2 mono-glib-sharp2.0 mono-gtk-sharp2.0 mono-Mono-Addins0.2 mono-pango-sharp2.0
-sdesc: "GNOME brain teasers"
-ldesc: "gbrainy is a brain teaser game and trainer to have fun and to 
-keep your brain trained. It is written for GNOME using Mono, C# and 
-Cairo."
